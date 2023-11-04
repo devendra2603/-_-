@@ -1,0 +1,181 @@
+body{
+    background-color:#393053;
+    color: #C0EEF2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #18122B;
+    color:#C0EEF2;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+    color:#C0EEF2;
+}
+nav ul li a:hover{
+   color: gray;
+    font-size: 1.01rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3rem;
+    
+}
+.span-1{
+    color: #18122B;
+}
+#element{
+    color: #18122B;
+}
+.rightsection img{
+    width: 90%;
+   
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background:  #18122B;
+    height: 1.5px;
+    margin: 40px 84px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+    margin-top: 0;
+}
+.text-grey{
+    color: #18122B;
+}
+.secondsection .box{
+    background-color: #18122B;
+    width: 78vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .verticle{
+    height: 85px;
+    width: 1.5px;
+    background-color: #18122B;
+    margin: 0 105px;
+}
+.image-top{
+    width: 26px;
+    position: relative;
+    top: -35px;
+    left: -13px;
+}
+.verticle-title{
+    position: relative;
+    top: 84px;
+    width: 150px;
+}
+.verticle-desc{
+    position: relative;
+    top: 99px;
+    
+    width: 150px;
+    font-size: 13px;
+}
+footer{
+    background-color: #18122B;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 233px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: #445D48;
+    padding: 12px 0;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+   text-decoration: none;
+    color: #C0EEF2;
+}
+footer ul li a:hover{
+   color: gray;
+    font-size: 1.01rem;
+}
+.btn {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #18122B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 233px;
+  will-change: transform;
+    margin-top: 20px;
+}
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
